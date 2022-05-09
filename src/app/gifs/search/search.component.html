@@ -4,4 +4,6 @@
   name="search-gif"
   class="form-control"
   placeholder="Search gifs"
+  (keyup.enter)="search(txtSearch.value)"
+  #txtSearch
 />
