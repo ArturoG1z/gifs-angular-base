@@ -5,6 +5,7 @@
     <a
       href="#"
       *ngFor="let search of history"
+      (click)="searchGifs(search)"
       class="list-group-item list-group-item-action"
       >{{ search | titlecase }}</a
     >
